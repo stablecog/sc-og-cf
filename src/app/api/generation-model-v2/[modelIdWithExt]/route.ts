@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/og";
+import { ImageResponse } from "@cloudflare/pages-plugin-vercel-og/api";
 import { NextResponse } from "next/server";
 import cors from "@/ts/constants/cors";
 import { getGenerationModel } from "@/ts/helpers/getGenerationModel";
